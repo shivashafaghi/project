@@ -105,7 +105,7 @@ a:hover {
 footer {
     background: rgba(51, 51, 51, 0.8); /* Transparent dark background for footer */
     color: #fff; /* White text color */
-    text-align: center; /* Center the footer content */
+    text-align: center; /* Center all footer content by default */
     padding: 10px 0; /* Padding for top and bottom */
     position: relative; /* Position relative for absolute positioning of elements inside */
     bottom: 0; /* Stick footer to the bottom */
@@ -119,11 +119,19 @@ footer {
 footer p {
     margin: 0; /* Remove default margin */
     font-size: 0.9rem; /* Set smaller font size for footer text */
-    text-align: center; /* Center the copyright text */
+    text-align: center; /* Center the "All rights reserved" text */
     flex-grow: 1; /* Allow the text to grow and take up remaining space */
 }
 
+/* Align the Privacy link to the far right */
 footer .home-button {
-    text-align: left; /* Align button to the left */
-    margin-left: 0; /* Remove margin to position button properly */
+    text-align: right; /* Align button to the right */
+    margin-left: auto; /* Push the "Privacy" link to the far right */
+}
+
+/* Center the "All rights reserved" text */
+footer .rights-reserved {
+    text-align: center; /* Center "All rights reserved" text */
+    width: 100%; /* Ensure it takes up full width */
+    font-size: 0.9rem; /* Adjust font size as needed */
 }
