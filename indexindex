@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ett exempel på en fast bakgrund och genomskinlig design.">
+    <title>Fast Bakgrund Exempel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Huvudrubrik och logotyp -->
+    <header>
+        <h1>Exempel Webbplats</h1>
+        <p>En demonstration av en fast bakgrund med genomskinligt innehåll</p>
+    </header>
+
+    <!-- Navigeringsmeny -->
+    <nav>
+        <ul>
+            <li><a href="#">Startsida</a></li>
+            <li><a href="#">Om oss</a></li>
+            <li><a href="#">Tjänster</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Huvudinnehåll -->
+    <main>
+        <section>
+            <h2>Välkommen</h2>
+            <p>
+                Detta är ett exempel på en webbplats där bakgrunden är fast och
+                texten scrollar över en halvgenomskinlig sektion. Den här designen
+                kan skapa en modern och elegant känsla för besökare.
+            </p>
+        </section>
+
+        <section>
+            <h2>Funktioner</h2>
+            <p>
+                <ul>
+                    <li>Fast bakgrund som stannar på plats vid scrollning</li>
+                    <li>Halvgenomskinliga sektioner för text och innehåll</li>
+                    <li>Responsiv design som fungerar på alla enheter</li>
+                </ul>
+            </p>
+        </section>
+    </main>
+
+    <!-- Sidfot -->
+    <footer>
+        <p>&copy; 2024 Exempel Webbplats. Alla rättigheter reserverade.</p>
+    </footer>
+</body>
+</html>
