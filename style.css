@@ -75,10 +75,10 @@ nav ul li a:hover {
 /* Huvudinnehåll - Main Content */
 main {
     padding: 20px; /* Padding inside the main content */
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    background: rgba(0, 0, 0, 0.2); /* Transparent black background */
     margin: 20px auto; /* Center main content with margins */
     max-width: 800px; /* Limit width to 800px */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow around main content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add subtle shadow around main content */
     border-radius: 5px; /* Rounded corners */
 }
 
