@@ -1,0 +1,64 @@
+/* Stilmallar för rubriker */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stilmall för övrig text */
+body, p {
+    font-family: Candara, Verdana, sans-serif;
+}
+
+/* Bakgrundsfärg för Tabell 1 */
+.tabell1 {
+    background-color: #ffcccc;
+    border: 1px solid black; /* Tunn svart kant runt tabellen */
+}
+
+/* Bakgrundsfärg för Tabell 2 */
+.tabell2 {
+    background-color: #ffcc99;
+    border: 1px solid black; /* Tunn svart kant runt tabellen */
+}
+
+/* Tabellrubriker */
+.tabell1 caption, .tabell2 caption {
+    font-weight: bold; /* Gör rubriken fetstil */
+    text-align: left; /* Justerar rubriken till vänster */
+    margin-bottom: 5px; /* Lägger till lite utrymme under rubriken */
+}
+
+/* Färg på texten längst ner */
+#source {
+    color: #009900;
+    position: fixed; /* Fäster texten på en fast position */
+    bottom: 10px; /* Avstånd från botten */
+    right: 10px; /* Avstånd från höger */
+    font-size: 14px; /* Justera storlek på texten */
+}
+
+/* Länkfärg när muspekaren är över länken */
+a:hover {
+    color: #ffffff; /* Ändrar textfärg vid hover */
+    background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
+}
+
+/* Stilar för den sista raden i Tabell 2 */
+.tabell2 tfoot tr.foot {
+    background-color: #000000; /* Svart bakgrund */
+    color: #ffffff; /* Vit text */
+    font-style: italic; /* Kursiv stil */
+    text-align: left; /* Justerar texten till vänster */
+}
+
+/* Justering av text i Tabell 1 och Tabell 2 */
+.tabell1 td, .tabell2 td, .tabell2 th {
+    text-align: left; /* Justerar texten till vänster för all text */
+    padding-left: 10px; /* Justerar padding för enhetlig inriktning */
+}
+
+/* Lägger till en linje endast under "Studenter" och "17 000" */
+.tabell2 thead tr th {
+    border-bottom: 1px solid black; /* Linje under rubriken "Studenter" */
+    text-align: left; /* Justerar texten till vänster */
+    padding-left: 10px; /* Lägger till samma padding som för td */
+}
