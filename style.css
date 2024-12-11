@@ -127,3 +127,11 @@ footer .home-button {
     text-align: left;
     margin-left: 0;
 }
+
+.home-button {
+    display: none;
+}
+
+.privacy-link {
+    display: block;
+}
