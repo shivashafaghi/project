@@ -22,7 +22,7 @@ header {
 
 /* Header content - text */
 .header-content {
-    background: rgba(0, 0, 0, 0.15); /* Black background with 15% opacity */
+    background: rgba(51, 51, 51, 0.8); /* Transparent dark background */
     padding: 2rem 3rem; /* Padding inside the content block */
     color: #d3d3d3; /* Light grey text */
     width: auto; /* Let width adjust automatically */
