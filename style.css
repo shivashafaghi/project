@@ -126,11 +126,3 @@ footer .home-button {
     margin-left: auto; /* Move the button to the right */
     margin-bottom: 10px; /* Add some space below the texts */
 }
-
-/* Add spacing between rights-reserved text and buttons */
-footer .home-button a {
-    color: #fff; /* White text for the links */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 1rem; /* Font size for the buttons */
-    margin-left: 15px; /* Space between buttons */
-}
