@@ -1,64 +1,90 @@
-/* Stilmallar för rubriker */
-h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, Helvetica, sans-serif;
+/* Allmänna stilar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-/* Stilmall för övrig text */
-body, p {
-    font-family: Candara, Verdana, sans-serif;
+/* Header-stil */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-/* Bakgrundsfärg för Tabell 1 */
-.tabell1 {
-    background-color: #ffcccc;
-    border: 1px solid black; /* Tunn svart kant runt tabellen */
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
 }
 
-/* Bakgrundsfärg för Tabell 2 */
-.tabell2 {
-    background-color: #ffcc99;
-    border: 1px solid black; /* Tunn svart kant runt tabellen */
+header p {
+    margin: 5px 0 0;
+    font-style: italic;
 }
 
-/* Tabellrubriker */
-.tabell1 caption, .tabell2 caption {
-    font-weight: bold; /* Gör rubriken fetstil */
-    text-align: left; /* Justerar rubriken till vänster */
-    margin-bottom: 5px; /* Lägger till lite utrymme under rubriken */
+/* Navigeringsmeny */
+nav {
+    background: #444;
+    padding: 10px 0;
 }
 
-/* Färg på texten längst ner */
-#source {
-    color: #009900;
-    position: fixed; /* Fäster texten på en fast position */
-    bottom: 10px; /* Avstånd från botten */
-    right: 10px; /* Avstånd från höger */
-    font-size: 14px; /* Justera storlek på texten */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-/* Länkfärg när muspekaren är över länken */
-a:hover {
-    color: #ffffff; /* Ändrar textfärg vid hover */
-    background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
+nav ul li {
+    margin: 0 15px;
 }
 
-/* Stilar för den sista raden i Tabell 2 */
-.tabell2 tfoot tr.foot {
-    background-color: #000000; /* Svart bakgrund */
-    color: #ffffff; /* Vit text */
-    font-style: italic; /* Kursiv stil */
-    text-align: left; /* Justerar texten till vänster */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    transition: background 0.3s;
 }
 
-/* Justering av text i Tabell 1 och Tabell 2 */
-.tabell1 td, .tabell2 td, .tabell2 th {
-    text-align: left; /* Justerar texten till vänster för all text */
-    padding-left: 10px; /* Justerar padding för enhetlig inriktning */
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
 }
 
-/* Lägger till en linje endast under "Studenter" och "17 000" */
-.tabell2 thead tr th {
-    border-bottom: 1px solid black; /* Linje under rubriken "Studenter" */
-    text-align: left; /* Justerar texten till vänster */
-    padding-left: 10px; /* Lägger till samma padding som för td */
+/* Huvudinnehåll */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+main h2 {
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+/* Sidfot */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
