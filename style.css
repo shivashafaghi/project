@@ -20,13 +20,13 @@ header {
     padding-top: 5rem; /* Add padding to the top */
 }
 
-/* Header content - text (background only for text below the header) */
+/* Header content - text (no background) */
 .header-content {
-    background: rgba(51, 51, 51, 0.8); /* Transparent dark background for the text */
     padding: 2rem 3rem; /* Padding inside the content block */
     color: #d3d3d3; /* Light grey text */
     width: auto; /* Let width adjust automatically */
     max-width: 100%; /* Ensure width does not exceed 100% */
+}
 }
 
 header h1 {
