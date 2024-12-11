@@ -1,6 +1,6 @@
 /* Allmänna stilar - General Styles */
 body {
-    font-family: Arial, sans-serif; /* Font family for the entire page */
+    font-family: 'Abel', Arial, sans-serif; /* Use Abel with fallback fonts */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     line-height: 1.6; /* Set line height for readability */
