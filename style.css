@@ -22,9 +22,9 @@ header {
 
 /* Header content - text */
 .header-content {
-    background: rgba(0, 0, 0, 0.1); /* 10% opacity black background */
+    background: rgba(0, 0, 0, 0.5); /* 50% opacity black background */
     padding: 2cm 3cm; /* 2-3cm padding */
-    color: white;
+    color: #d3d3d3; /* Light grey text */
     width: auto;
     max-width: 100%;
 }
@@ -37,7 +37,7 @@ header h1 {
 
 header p {
     font-size: 1.5rem;
-    color: white;
+    color: #d3d3d3; /* Light grey text */
     margin-top: 10px;
 }
 
