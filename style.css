@@ -22,7 +22,7 @@ header {
 
 /* Header content - text */
 .header-content {
-    background: rgba(0, 0, 0, 0.5); /* 50% opacity black background */
+    background: rgba(0, 0, 0, 0.15); /* Black background with 15% opacity */
     padding: 2rem 3rem; /* Adjusted for rem units */
     color: #d3d3d3; /* Light grey text */
     width: auto;
@@ -91,13 +91,13 @@ main h2 {
 
 /* Link styling */
 a {
-    color: #d3d3d3; /* Light grey text for links */
+    color: orange; /* Orange text for links */
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
 a:hover {
-    color: orange; /* Orange color on hover */
+    color: white; /* White color on hover */
     text-decoration: underline;
 }
 
