@@ -93,9 +93,11 @@ main h2 {
 a {
     color: #d3d3d3; /* Light grey text for links */
     text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 a:hover {
+    color: orange; /* Orange color on hover */
     text-decoration: underline;
 }
 
