@@ -1,41 +1,50 @@
-/* General Styles */
+/* Allmänna stilar */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background: url('https://vurwebconsulting.godaddysites.com/images/background.jpg') no-repeat center center fixed;
+    background: url('logoblb.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
-/* Header Styling */
+/* Header-stil */
 header {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: flex-start; /* Align text to the top */
+    justify-content: center;
     text-align: center;
-    color: #fff;
-    padding: 30px 0;
+    padding-top: 20cm; /* 20cm from the top */
 }
 
-header .logo img {
-    max-width: 150px;
-    margin-bottom: 10px;
+/* Header content - text */
+.header-content {
+    background: rgba(0, 0, 0, 0.1); /* 10% opacity black background */
+    padding: 2cm 3cm; /* 2-3cm padding */
+    color: white;
+    width: auto;
+    max-width: 100%;
 }
 
 header h1 {
-    margin: 10px 0 5px;
     font-size: 3rem;
-    letter-spacing: 2px;
+    color: orange;
+    margin: 0;
 }
 
 header p {
-    font-size: 1.2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
 }
 
-/* Navigation Menu */
+/* Navigeringsmeny */
 nav {
-    background: rgba(68, 68, 68, 0.8); /* Transparent background */
-    padding: 15px 0;
+    background: rgba(68, 68, 68, 0.8); /* Genomskinlig bakgrund */
+    padding: 10px 0;
 }
 
 nav ul {
@@ -47,16 +56,15 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.4rem;
-    padding: 5px 15px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
     transition: background 0.3s;
-    letter-spacing: 1px;
 }
 
 nav ul li a:hover {
@@ -64,12 +72,12 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Main Content Styling */
+/* Huvudinnehåll */
 main {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-    margin: 30px auto;
-    max-width: 900px;
+    background: rgba(255, 255, 255, 0.9); /* Halvgenomskinlig bakgrund */
+    margin: 20px auto;
+    max-width: 800px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
@@ -80,22 +88,12 @@ main h2 {
     padding-bottom: 10px;
 }
 
-/* Section Styling */
-section {
-    padding: 20px 0;
-}
-
-section h2 {
-    color: #333;
-    font-size: 2rem;
-}
-
-/* Footer Styling */
+/* Sidfot */
 footer {
-    background: rgba(51, 51, 51, 0.8); /* Transparent background */
+    background: rgba(51, 51, 51, 0.8); /* Genomskinlig bakgrund */
     color: #fff;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -103,5 +101,5 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
