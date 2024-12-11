@@ -110,9 +110,20 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space out the content */
+    align-items: center; /* Vertically center the content */
+    padding: 10px 20px; /* Add some padding for spacing */
 }
 
 footer p {
     margin: 0;
     font-size: 0.9rem;
+    text-align: center;
+    flex-grow: 1; /* Center the copyright text */
+}
+
+footer .home-button {
+    text-align: left;
+    margin-left: 0;
 }
