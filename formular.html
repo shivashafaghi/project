@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supportformulär</title>
+</head>
+<body>
+
+    <!-- Formulär för att skicka ärenden till supporten -->
+    <h1>Supportformulär</h1>
+    <form action="https://swplayground.ltu.se/resources/parse_form.php" method="POST">
+        <!-- Ditt namn -->
+        <label for="namn">Ditt namn:</label>
+        <input type="text" id="namn" name="namn" required><br><br>
+
+        <!-- Telefon -->
+        <label for="telefon">Telefon:</label>
+        <input type="tel" id="telefon" name="telefon" required><br><br>
+
+        <!-- Prioritet -->
+        <label for="prioritet">Prioritet:</label>
+        <select id="prioritet" name="prioritet" required>
+            <option value="1">Låg</option>
+            <option value="2">Normal</option>
+            <option value="3">Hög</option>
+        </select><br><br>
+
+        <!-- Tilldela till ort -->
+        <label for="ort">Tilldela till ort:</label>
+        <select id="ort" name="ort" required>
+            <option value="gbg">Göteborg</option>
+            <option value="sthlm">Stockholm</option>
+            <option value="ume">Umeå</option>
+            <option value="lule">Luleå</option>
+        </select><br><br>
+
+        <!-- Kategorin -->
+        <label for="kategori">Kategorin:</label>
+        <select id="kategori" name="kategori" required>
+            <option value="fakt">Fakturering</option>
+            <option value="net">Internet</option>
+            <option value="tel">Telefoni</option>
+            <option value="epost">E-post</option>
+        </select><br><br>
+
+        <!-- Rubrik -->
+        <label for="rubrik">Rubrik:</label>
+        <input type="text" id="rubrik" name="rubrik" required><br><br>
+
+        <!-- Beskrivning -->
+        <label for="beskrivning">Beskrivning:</label><br>
+        <textarea id="beskrivning" name="beskrivning" rows="4" cols="50" required></textarea><br><br>
+
+        <!-- Submit-knapp -->
+        <input type="submit" name="skicka" value="Submit">
+        
+        <!-- Reset-knapp -->
+        <input type="reset" value="Reset"><br><br>
+
+    </form>
+
+</body>
+</html>
