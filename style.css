@@ -124,6 +124,7 @@ footer .rights-reserved {
 footer .home-button {
     text-align: right; /* Align the button to the right */
     margin-left: auto; /* Move the button to the right */
+    margin-bottom: 10px; /* Add some space below the texts */
 }
 
 /* Add spacing between rights-reserved text and buttons */
