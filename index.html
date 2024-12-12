@@ -20,16 +20,16 @@
     <!-- Navigeringsmeny -->
     <nav>
         <ul>
-            <li><a href="#">Startsida</a></li>
-            <li><a href="#">About VUR</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="active">Startsida</a></li>
+            <li><a href="#about">About VUR</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Huvudinnehåll -->
     <main>
-        <section>
+        <section id="about">
             <h2>VUR Web Consulting</h2>
             <p>
                 Detta är ett exempel på en webbplats där bakgrunden är fast och
@@ -37,7 +37,7 @@
                 kan skapa en modern och elegant känsla för besökare.
             </p>
         </section>
-        <section>
+        <section id="services">
             <h2>Why VUR?</h2>
             <p>
                 We understand the dynamic landscape of the digital realm. 
@@ -52,7 +52,7 @@
                 we have the knowledge skills to help businesses of all sizes grow & succeed.
             </p>
         </section>
-        <section>
+        <section id="contact">
             <h2>Our Process</h2>
             <p>
                 We take a data-driven approach to marketing, using analytics & insights to inform our strategies & tactics.
@@ -61,15 +61,11 @@
         </section>
     </main>
 
-    
     <!-- Sidfot -->
     <footer>
         <p class="rights-reserved">&copy; 2024 VUR. All Rights Reserved.</p>
-        <div class="home-button" style="display: none;">
-            <a href="index.html">Home</a> <!-- Hide the Home button -->
-        </div>
-        <div class="home-button">
-            <a href="privacy.html">Privacy</a> <!-- This is the Privacy link -->
+        <div>
+            <a href="privacy.html">Privacy</a> <!-- Simplified link -->
         </div>
     </footer>
 </body>
