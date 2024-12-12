@@ -64,6 +64,8 @@ nav ul li {
 }
 
 nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* white for links */
     font-size: 1.2rem; /* Set font size for links */
     padding: 5px 10px; /* Padding around the links */
     transition: background 0.3s; /* Smooth background transition on hover */
@@ -106,7 +108,6 @@ a:hover {
     color: white; /* Change link color to white on hover */
     text-decoration: underline; /* Underline the link on hover */
 }
-
   /* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
 
 /* Styling for the container of the contact form */
@@ -191,7 +192,7 @@ a:hover {
     /* ------------------------------------------- FOOTER ---------------------------------------------*/
 
     /* Footer */
-    footer {
+       footer {
         display: flex; /* Use flexbox for layout */
         flex-direction: column; /* Stack the content vertically */
         align-items: center; /* Centers the content vertically inside footer */
@@ -200,9 +201,11 @@ a:hover {
         background: rgba(68, 68, 68, 0.8); /* Same background color as the navigation bar */
         padding: 10px 0; /* Same padding as the navbar */
         color: #d3d3d3; /* Light grey text for general text */
+        width: 100%; /* Ensure the footer spans the full width of the page */
+        margin: 0; /* Ensure there's no unwanted margin */
     }
     
-     /* Styling for the copyright text section */
+      /* Styling for the copyright text section */
     .rights-reserved {
         margin-bottom: 5px; /* Space between copyright text and cookie banner */
     }
@@ -221,17 +224,28 @@ a:hover {
         padding: 0; /* Removes default padding */
     }
     
+    /* Styling for the accept cookies button */
     #accept-cookies {
         margin-top: 10px;
         padding: 10px 20px;
-        background-color: none; /* Button color */
-        color: white;
+        color: white; /* White text */
+        background-color: transparent; /* No background fill */
         border: orange;
         border-radius: 5px;
         cursor: pointer;
+        transition: color 0.3s, border-color 0.3s; /* Smooth transition for color and border */
     }
     
     #accept-cookies:hover {
-        background-color: white;
+        background-color: orange;
     }
-}
+    
+    /* Ensuring full height of the initial section */
+    #home {
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
