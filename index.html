@@ -106,31 +106,34 @@
             
             <!-- Contact Section (CSS: #contact, .contact-btn, .contact-form-container) -->
             <section id="contact">
-                <h2>Get in touch</h2> <!-- Change to h2 as it's a subsection under the main heading -->
-                <h3>Connect with us for a consultation!</h3> <!-- Change to h3 for consistency -->
-                <p>Let's discuss your marketing goals & unlock the full potential of your brand in the digital landscape.</p>
-                       
-                 <!-- * * * * * *  CONTACT BUTTION  * * * * * * -->
-                 
-                 <!-- Contact Button (CSS: .contact-btn) -->
-                 <button onclick="openContactForm()">Contact VUR</button>
-                 
-                 <!-- Contact Form (Initially Hidden) (CSS: .contact-form-container, .contact-form-container form, .close-btn) -->
-                 <div class="contact-form-container" id="contactForm">
-                     <div class="contact-form">
-                         <span class="close-btn" onclick="closeContactForm()">X</span>
-                         <h2>Contact VUR</h2>
-                         <form onsubmit="submitForm(event)">
-                             <label for="name">Name:</label>
-                             <input type="text" id="name" name="name" required>
-                             <button type="submit">Submit</button>
-                         </form>
-                     </div> <!-- Close contact-form -->
-                     <!-- Close Button (Outside Form) -->
-                     <button type="button" class="close-btn" onclick="closeContactForm()">Close</button>
-                 </div> <!-- Close contact-form-container -->
-             </section>
+                <h2>Get in touch</h2>
+                <h3>Connect with us for a consultation!</h3>
+                <p>Let's discuss your marketing goals and unlock the full potential of your brand in the digital landscape.</p>
             
+                <!-- Contact Button -->
+                <button class="contact-btn" onclick="openContactForm()">Contact VUR</button>
+            
+                <!-- Contact Form -->
+                <div class="contact-form-container" id="contactForm">
+                    <div class="contact-form">
+                        <button class="close-btn" onclick="closeContactForm()">X</button>
+                        <h2>Contact VUR</h2>
+                        <form onsubmit="submitForm(event)">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+   
 <!-- * * * * * *  FOOTER  * * * * * * -->
     
         <!-- Sidfot (CSS: footer, .rights-reserved, a) -->
