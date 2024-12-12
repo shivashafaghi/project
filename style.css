@@ -10,6 +10,7 @@ body {
     background-size: cover; /* Ensure background covers entire page */
 }
 
+/* ------------------------------------------- HEADER ---------------------------------------------*/
 /* Header-stil - Header Styles */
 header {
     position: relative; /* Set position relative for positioning child elements */
@@ -42,6 +43,8 @@ header p {
     margin-top: 10px; /* Add margin to the top */
 }
 
+/* ------------------------------------------- NAVIGATION ---------------------------------------------*/
+
 /* Navigeringsmeny - Navigation Menu */
 nav {
     background: rgba(68, 68, 68, 0.8); /* Transparent dark background for the navbar */
@@ -73,6 +76,8 @@ nav ul li a:hover {
     border-radius: 5px; /* Round the corners of the link */
 }
 
+/* ------------------------------------------- MAIN ---------------------------------------------*/
+
 /* Huvudinnehåll - Main Content */
 main {
     padding: 20px; /* Padding inside the main content */
@@ -90,6 +95,8 @@ main h2 {
     padding-bottom: 10px; /* Padding below the heading */
 }
 
+/* ------------------------------------------- LINK STYLING ---------------------------------------------*/
+
 /* Link styling */
 a {
     color: orange; /* Set color for links */
@@ -102,31 +109,7 @@ a:hover {
     text-decoration: underline; /* Underline the link on hover */
 }
 
-/* Sidfot - Footer */
-footer {
-    background: rgba(51, 51, 51, 0.8); /* Transparent dark background for footer */
-    color: #fff; /* White text color */
-    text-align: center; /* Center the footer content */
-    padding: 10px 20px; /* Padding for top and bottom */
-    position: relative; /* Position relative for absolute positioning of elements inside */
-    bottom: 0; /* Stick footer to the bottom */
-    width: 100%; /* Full width of the page */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center the content */
-}
-
-/* All rights reserved styling (centered) */
-footer .rights-reserved {
-    margin-bottom: 10px; /* Add some space below the text */
-}
-
-/* Home and Privacy buttons */
-footer .home-button {
-    text-align: right; /* Align the button to the right */
-    margin-left: auto; /* Move the button to the right */
-    margin-bottom: 10px; /* Add some space below the texts */
-}
+/* ------------------------------------------- RESPONSIVE ---------------------------------------------*/
 
 /* Responsive Navigation */
 nav ul {
@@ -159,6 +142,8 @@ nav ul {
         margin: 10px;
         padding: 10px;
     }
+
+    /* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
 
     /* Style for the Contact Form */
     .contact-btn {
@@ -240,10 +225,12 @@ nav ul {
         background-color: #e60000;
     }
 
+    /* ------------------------------------------- FOOTER ---------------------------------------------*/
+
     /* Footer */
     footer {
         display: flex; /* Use flexbox for layout */
-        flex-direction: column;
+        flex-direction: column; /* Stack the content vertically */
         align-items: center; /* Centers the content vertically inside footer */
         justify-content: center; /* Centers the content horizontally inside footer */
         text-align: center; /* Center the footer content */
