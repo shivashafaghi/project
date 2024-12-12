@@ -43,7 +43,7 @@ header p {
 
 /* Navigeringsmeny - Navigation Menu */
 nav {
-    background: rgba(68, 68, 68, 0.8) no-repeat center center fixed; /* Transparent dark background for the navbar */
+    background: rgba(68, 68, 68, 0.8); /* Transparent dark background for the navbar */
     padding: 10px 0; /* Padding for top and bottom */
 }
 
