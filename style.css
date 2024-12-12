@@ -116,33 +116,6 @@ nav ul {
     flex-wrap: wrap; /* Allow menu items to wrap on smaller screens */
 }
 
-@media screen and (max-width: 768px) {
-    /* Adjust header for smaller screens */
-    header {
-        padding-top: 2rem;
-    }
-    header h1 {
-        font-size: 2rem;
-    }
-    header p {
-        font-size: 1rem;
-    }
-
-    /* Stack navigation items vertically */
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    /* Main content adjustments */
-    main {
-        margin: 10px;
-        padding: 10px;
-    }
-
 /* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
 
     /* Contact Form Styling */
