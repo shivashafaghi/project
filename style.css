@@ -64,8 +64,6 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* white for links */
     font-size: 1.2rem; /* Set font size for links */
     padding: 5px 10px; /* Padding around the links */
     transition: background 0.3s; /* Smooth background transition on hover */
@@ -96,6 +94,19 @@ main h2 {
 }
 
 /* ------------------------------------------- LINK STYLING ---------------------------------------------*/
+
+/* Link styling */
+a {
+    color: orange; /* Set color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: white; /* Change link color to white on hover */
+    text-decoration: underline; /* Underline the link on hover */
+}
+
   /* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
 
 /* Styling for the container of the contact form */
