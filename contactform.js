@@ -14,4 +14,7 @@ function closeContactForm() {
 function submitForm(event) {
     event.preventDefault(); // Prevent the form from submitting normally
     alert("Form submitted successfully!");
+    
+    // Close the form after submission
+    closeContactForm();
 }
