@@ -244,4 +244,37 @@ nav ul {
         font-size: 0.8rem;
         padding: 10px;
     }
+
+        /* Cookie Banner CSS */
+    .cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        display: none; /* Hide by default */
+        z-index: 1000;
+    }
+    
+    .cookie-banner a {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+    
+    .cookie-banner button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .cookie-banner button:hover {
+        background-color: #45a049;
+    }
+
 }
