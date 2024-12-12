@@ -242,15 +242,20 @@ nav ul {
 
     /* Footer */
     footer {
-        display: flex;
+        display: flex; /* Use flexbox for layout */
         flex-direction: column;
-        align-items: center; /* Centers the content horizontally */
-        justify-content: center; /* Centers content vertically inside footer */
-        text-align: center;
-        padding: 20px;
+        align-items: center; /* Centers the content vertically inside footer */
+        justify-content: center; /* Centers the content horizontally inside footer */
+        text-align: center; /* Center the footer content */
+        padding: 10px 0; /* Same padding as the navbar */
         width: 100%; /* Ensures footer takes up full width */
-        background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+        background: rgba(68, 68, 68, 0.8); /* Same background color as the navigation bar */
         color: white; /* Text color for visibility */
+    }
+
+    /* Optional: If you need to add spacing or customize the font size of the text */
+    footer p {
+        font-size: 16px; /* Adjust this size if needed */
     }
     
     .rights-reserved {
