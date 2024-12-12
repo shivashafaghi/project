@@ -240,42 +240,58 @@ nav ul {
         background-color: #e60000;
     }
 
-    /* Footer adjustments */
+    /* Footer */
     footer {
-        font-size: 0.8rem;
-        padding: 10px;
-    }
-
-        /* Cookie Banner CSS */
-    .cookie-banner {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the content horizontally */
+        justify-content: center; /* Centers content vertically inside footer */
         text-align: center;
-        padding: 15px;
-        display: none; /* Hide by default */
-        z-index: 1000;
+        padding: 20px;
+        width: 100%; /* Ensures footer takes up full width */
+        background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+        color: white; /* Text color for visibility */
     }
     
-    .cookie-banner a {
-        color: #4CAF50;
-        text-decoration: none;
+    .rights-reserved {
+        margin-bottom: 10px; /* Space between copyright text and cookie banner */
     }
     
-    .cookie-banner button {
-        background-color: #4CAF50;
+    .cookie-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the content of the cookie banner */
+        margin-top: 10px;
+    }
+    
+    .cookie-banner p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    button#accept-cookies {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Button color */
         color: white;
         border: none;
-        padding: 10px 20px;
-        margin-left: 10px;
+        border-radius: 5px;
         cursor: pointer;
     }
     
-    .cookie-banner button:hover {
+    button#accept-cookies:hover {
         background-color: #45a049;
     }
-
+    
+    /* Ensuring full height of the initial section */
+    #home {
+        background: url('your-image.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
 }
