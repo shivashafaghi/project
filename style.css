@@ -145,100 +145,84 @@ nav ul {
 
 /* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
 
-/* Style for the Contact Form */
-    
-     /* Contact Button */
-        .contact-btn {
-            background-color: #007BFF; /* Primary button color */
-            color: #fff; /* White text color */
-            font-size: 18px; /* Button text size */
-            border: none; /* Remove border */
-            border-radius: 5px; /* Rounded corners */
-            padding: 15px 30px; /* Button padding */
-            cursor: pointer; /* Change cursor to pointer */
-            transition: all 0.3s ease; /* Smooth hover transition */
-        }
-
-        .contact-btn:hover {
-            background-color: #0056b3; /* Darker blue on hover */
-            transform: translateY(-2px); /* Slightly move up on hover */
-        }
-
-    /* Full-Screen Form Overlay */
+    /* Contact Form Styling */
         .contact-form-container {
-            display: none; /* Initially hidden */
-            position: fixed; /* Fixed position for full-screen overlay */
-            top: 0; /* Align to top of the screen */
-            left: 0; /* Align to left of the screen */
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            background-color: rgba(0, 0, 0, 0.8); /* Black semi-transparent background */
-            justify-content: center; /* Center content horizontally */
-            align-items: center; /* Center content vertically */
-            z-index: 1000; /* High z-index to overlay other elements */
-        }
-
-    /* Form Styling */
-        .contact-form {
-            background-color: #fff; /* White background for form */
-            padding: 40px; /* Inner padding */
-            width: 90%; /* Full width for smaller screens */
-            max-width: 500px; /* Max width for larger screens */
-            border-radius: 10px; /* Rounded corners */
-            position: relative; /* Relative positioning for internal elements */
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-            text-align: center; /* Center align form content */
-        }
-
-        .close-btn:hover {
-            color: #ff0000; /* Red color on hover for close button */
-        }
-
-    /* Form Fields */
-        .contact-form label {
-            display: block; /* Block display for labels */
-            margin: 15px 0 5px; /* Spacing around labels */
-            font-weight: bold; /* Bold text for labels */
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%; /* Full width of form fields */
-            padding: 10px; /* Inner padding for fields */
-            margin-bottom: 15px; /* Space below each field */
-            border: 1px solid #ddd; /* Light grey border */
-            border-radius: 5px; /* Rounded corners */
-            font-size: 16px; /* Font size for inputs */
-        }
-
-        .contact-form button {
-            background-color: #007BFF; /* Primary button color */
-            color: #fff; /* White text color */
-            font-size: 18px; /* Button text size */
-            border: none; /* Remove border */
-            border-radius: 5px; /* Rounded corners */
-            padding: 10px 20px; /* Button padding */
-            cursor: pointer; /* Change cursor to pointer */
-            transition: background-color 0.3s ease; /* Smooth hover transition */
-        }
-
-        .contact-form button:hover {
-            background-color: #0056b3; /* Darker blue on hover */
-        }
-
-    /* Animation */
-        @keyframes fadeIn {
-            from {
-                opacity: 0; /* Start fully transparent */
-            }
-            to {
-                opacity: 1; /* End fully visible */
-            }
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
         }
         
-        .contact-form-container {
-            animation: fadeIn 0.3s ease-in-out; /* Apply fade-in animation */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px 30px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
         }
+        
+        .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .contact-form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            display: block;
+            color: #333;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #333;
+            cursor: pointer;
+        }
+        
+        .close-btn:hover {
+            color: red;
+        }
+
 
     /* ------------------------------------------- FOOTER ---------------------------------------------*/
 
