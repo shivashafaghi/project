@@ -1,122 +1,132 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ett exempel på en fast bakgrund och genomskinlig design.">
-    <title>VUR</title>
-    <link rel="stylesheet" href="style.css">
-<!-- Google Font link -->
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <!-- Meta tag for character encoding -->
+            <meta charset="UTF-8">
+        
+        <!-- Meta tag for responsive design, adjusts based on device width -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Meta tag for describing the content of the webpage -->
+            <meta name="description" content="Ett exempel på en fast bakgrund och genomskinlig design.">
+        
+        <!-- Title of the webpage displayed in the browser tab -->
+            <title>VUR</title>
+        
+        <!-- Link to the external CSS stylesheet for styling -->
+            <link rel="stylesheet" href="style.css">
+        
+        <!-- Google Font link for custom typography -->
+            <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    </head>
 
-<body>
-    <!-- Huvudrubrik och logotyp (CSS: #home, header-content) -->
-    <section id="home">
-    <header>
-        <div class="header-content">
-            <h1>Unleash the Power of Digital Marketing</h1>
-            <p>VUR will help you achieve online success</p>
-        </div>
-    </header>
-
-    <!-- Navigeringsmeny (CSS: nav, ul, li, a) -->
-    <nav>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#about">About VUR</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Get in touch</a></li>
-        </ul>
-    </nav>
-
-    <!-- Huvudinnehåll (CSS: main, section, h1, h2, p) -->
-    <main>
-        <!-- About VUR Section (CSS: #about) -->
-        <section id="about">
-            <h1>About VUR</h1>
-            <h2>VUR Web Consulting</h2>
-            <p>
-               <strong>VUR</strong> is a forward-thinking digital agency dedicated to helping brands navigate and thrive in the ever-evolving online world.
-                We focus on developing tailored strategies that boost your brand's visibility and ensure long-term growth in a competitive digital landscape.
-                Our team takes a strategic approach to deliver custom solutions that align with your specific business needs.
-                By combining innovation with data-driven insights, we provide measurable results that directly impact your brand’s success.
-                Whether you're just starting out or looking to expand, <strong>VUR</strong> offers the expertise and flexibility to take your digital presence to the next level.
-            </p>
-        </section>
-        
-        <!-- Services Section (CSS: #services) -->
-        <section id="services">
-            <h1>Services</h1>
-            <h2>Why VUR?</h2>
-            <p>
-                We understand the dynamic landscape of the digital realm. 
-                Dedicated to crafting tailored solutions that transcend traditional boundaries & elevate your brand's online visibility.
-            </p>
-        </section>
-
-        <!-- Expertise Section (CSS: .expertise) -->
-        <section>
-            <h2>Our Expertise</h2>
-            <p>
-                Our team is made up of experienced marketing professionals who are experts in the field.
-                From Paid Media to Social Media & Content writing to Copywriting,
-                we have the knowledge skills to help businesses of all sizes grow & succeed.
-            </p>
-        </section>
-
-        <!-- Process Section (CSS: .process) -->
-        <section>
-            <h2>Our Process</h2>
-            <p>
-                We take a data-driven approach to marketing, using analytics & insights to inform our strategies & tactics.
-                We continuously monitor & optimize our campaigns to ensure that our clients get the best possible results.
-            </p>
-        </section>
-        
-        <!-- Contact Section (CSS: #contact, .contact-btn, .contact-form-container) -->
-        <section id="contact">
-            <h1>Get in touch</h1>
-            <h2>Connect with us for a consultation!</h2>
-            <p>Let's discuss your marketing goals & unlock the full potential of your brand in the digital landscape.</p>
-        
-        <!-- Contact Button (CSS: .contact-btn) -->
-        <button class="contact-btn" id="contactBtn">Contact VUR</button>
-        
-        <!-- Contact Form (Initially Hidden) (CSS: .contact-form-container, .contact-form-container form, .close-btn) -->
-        <div class="contact-form-container" id="contactForm">
-            <form action="mailto:info@vur.nu" method="post" enctype="text/plain">
-                <h2>Contact VUR</h2>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-        
-                <button type="submit">Send Message</button>
-                <button type="button" class="close-btn" id="closeBtn">Close</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Sidfot (CSS: footer, .rights-reserved, a) -->
-    <footer>
-        <p class="rights-reserved">&copy; 2024 VUR. All Rights Reserved.</p>
-        
-        <!-- Cookie Consent Banner (CSS: .cookie-banner) -->
-            <div id="cookie-banner" class="cookie-banner">
-                <p>We use cookies to improve your experience. By continuing to use our site, you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
-                <button id="accept-cookies">Accept</button>
+    <body>
+        <!-- Huvudrubrik och logotyp (CSS: #home, header-content) -->
+        <section id="home">
+        <header>
+            <div class="header-content">
+                <h1>Unleash the Power of Digital Marketing</h1>
+                <p>VUR will help you achieve online success</p>
             </div>
-    </footer>
-
-    <!-- JavaScript -->
-        <!-- Link to cookies.js JavaScript -->
-            <script src="cookies.js"></script>
-        <!-- Swooshes in Contact form JavaScript -->
-            <script src="contactform.js"></script>
-</body>
+        </header>
+    
+        <!-- Navigeringsmeny (CSS: nav, ul, li, a) -->
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About VUR</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Get in touch</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Huvudinnehåll (CSS: main, section, h1, h2, p) -->
+        <main>
+            <!-- About VUR Section (CSS: #about) -->
+            <section id="about">
+                <h1>About VUR</h1>
+                <h2>VUR Web Consulting</h2>
+                <p>
+                   <strong>VUR</strong> is a forward-thinking digital agency dedicated to helping brands navigate and thrive in the ever-evolving online world.
+                    We focus on developing tailored strategies that boost your brand's visibility and ensure long-term growth in a competitive digital landscape.
+                    Our team takes a strategic approach to deliver custom solutions that align with your specific business needs.
+                    By combining innovation with data-driven insights, we provide measurable results that directly impact your brand’s success.
+                    Whether you're just starting out or looking to expand, <strong>VUR</strong> offers the expertise and flexibility to take your digital presence to the next level.
+                </p>
+            </section>
+            
+            <!-- Services Section (CSS: #services) -->
+            <section id="services">
+                <h1>Services</h1>
+                <h2>Why VUR?</h2>
+                <p>
+                    We understand the dynamic landscape of the digital realm. 
+                    Dedicated to crafting tailored solutions that transcend traditional boundaries & elevate your brand's online visibility.
+                </p>
+            </section>
+    
+            <!-- Expertise Section (CSS: .expertise) -->
+            <section>
+                <h2>Our Expertise</h2>
+                <p>
+                    Our team is made up of experienced marketing professionals who are experts in the field.
+                    From Paid Media to Social Media & Content writing to Copywriting,
+                    we have the knowledge skills to help businesses of all sizes grow & succeed.
+                </p>
+            </section>
+    
+            <!-- Process Section (CSS: .process) -->
+            <section>
+                <h2>Our Process</h2>
+                <p>
+                    We take a data-driven approach to marketing, using analytics & insights to inform our strategies & tactics.
+                    We continuously monitor & optimize our campaigns to ensure that our clients get the best possible results.
+                </p>
+            </section>
+            
+            <!-- Contact Section (CSS: #contact, .contact-btn, .contact-form-container) -->
+            <section id="contact">
+                <h1>Get in touch</h1>
+                <h2>Connect with us for a consultation!</h2>
+                <p>Let's discuss your marketing goals & unlock the full potential of your brand in the digital landscape.</p>
+            
+            <!-- Contact Button (CSS: .contact-btn) -->
+            <button class="contact-btn" id="contactBtn">Contact VUR</button>
+            
+            <!-- Contact Form (Initially Hidden) (CSS: .contact-form-container, .contact-form-container form, .close-btn) -->
+            <div class="contact-form-container" id="contactForm">
+                <form action="mailto:info@vur.nu" method="post" enctype="text/plain">
+                    <h2>Contact VUR</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <button type="submit">Send Message</button>
+                    <button type="button" class="close-btn" id="closeBtn">Close</button>
+                </form>
+            </div>
+        </section>
+    
+        <!-- Sidfot (CSS: footer, .rights-reserved, a) -->
+        <footer>
+            <p class="rights-reserved">&copy; 2024 VUR. All Rights Reserved.</p>
+            
+            <!-- Cookie Consent Banner (CSS: .cookie-banner) -->
+                <div id="cookie-banner" class="cookie-banner">
+                    <p>We use cookies to improve your experience. By continuing to use our site, you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
+                    <button id="accept-cookies">Accept</button>
+                </div>
+        </footer>
+    
+        <!-- JavaScript -->
+            <!-- Link to cookies.js JavaScript -->
+                <script src="cookies.js"></script>
+            <!-- Swooshes in Contact form JavaScript -->
+                <script src="contactform.js"></script>
+    </body>
 </html>
