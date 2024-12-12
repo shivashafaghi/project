@@ -1,15 +1,9 @@
 // JavaScript to handle form display and animation
-    const contactBtn = document.getElementById("contactBtn");
-    const contactForm = document.getElementById("contactForm");
-    const closeBtn = document.getElementById("closeBtn");
+function openContactForm() {
+    document.getElementById('contactForm').style.display = 'flex'; // Display the form
+}
 
-    // Show the contact form
-    contactBtn.addEventListener("click", () => {
-        contactForm.style.display = "flex";  // Makes the form visible
-    });
-
-    // Close the contact form
-    closeBtn.addEventListener("click", () => {
-        contactForm.style.display = "none";  // Hides the form
-    });
-</script>
+// Close the Contact Form
+function closeContactForm() {
+    document.getElementById('contactForm').style.display = 'none'; // Hide the form
+}
