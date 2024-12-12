@@ -220,16 +220,4 @@ main h2 {
     #accept-cookies:hover {
         background-color: white;
     }
-    
-    /* Ensuring full height of the initial section */
-    #home {
-        background: url('logoblb.jpg') no-repeat center center fixed;
-        background-size: cover;
-        height: 100vh; /* Full viewport height */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-align: center;
-    }
 }
