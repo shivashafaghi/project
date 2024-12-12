@@ -1,128 +1,38 @@
-/* Allmänna stilar - General Styles */
-body {
-    font-family: 'Abel', Arial, sans-serif; /* Use Abel with fallback fonts */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    line-height: 1.6; /* Set line height for readability */
-    color: #d3d3d3; /* Light grey text for general text */
-    background: url('logoblb.jpg') no-repeat center center fixed; /* Background image, centered and fixed */
-    background-size: cover; /* Ensure background covers entire page */
-}
-
-/* Header-stil - Header Styles */
-header {
-    position: relative; /* Set position relative for positioning child elements */
-    height: 100vh; /* Full viewport height */
-    display: flex; /* Use flexbox for layout */
-    align-items: flex-start; /* Align text to the top */
-    justify-content: center; /* Center content horizontally */
-    text-align: center; /* Center text within header */
-    padding-top: 5rem; /* Add padding to the top */
-}
-
-/* Header content - text (no background) */
-.header-content {
-    padding: 2rem 3rem; /* Padding inside the content block */
-    color: #d3d3d3; /* Light grey text */
-    width: auto; /* Let width adjust automatically */
-    max-width: 100%; /* Ensure width does not exceed 100% */
-}
-}
-
-header h1 {
-    font-size: 3rem; /* Set large font size for header */
-    color: orange; /* Orange color for the header */
-    margin: 0; /* Remove default margin */
-}
-
-header p {
-    font-size: 1.5rem; /* Set font size for paragraph */
-    color: #d3d3d3; /* Light grey text */
-    margin-top: 10px; /* Add margin to the top */
-}
-
-/* Navigeringsmeny - Navigation Menu */
-nav {
-    background: rgba(68, 68, 68, 0.8); /* Transparent dark background for the navbar */
-    padding: 10px 0; /* Padding for top and bottom */
-}
-
+/* Responsive Navigation */
 nav ul {
-    list-style: none; /* Remove default list bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    display: flex; /* Use flexbox for horizontal layout */
-    justify-content: center; /* Center the navigation items */
+    flex-wrap: wrap; /* Allow menu items to wrap on smaller screens */
 }
 
-nav ul li {
-    margin: 0 15px; /* Horizontal spacing between list items */
-}
+@media screen and (max-width: 768px) {
+    /* Adjust header for smaller screens */
+    header {
+        padding-top: 2rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
 
-nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* White color for links */
-    font-size: 1.2rem; /* Set font size for links */
-    padding: 5px 10px; /* Padding around the links */
-    transition: background 0.3s; /* Smooth background transition on hover */
-}
+    /* Stack navigation items vertically */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
 
-nav ul li a:hover {
-    background: #555; /* Darken background on hover */
-    border-radius: 5px; /* Round the corners of the link */
-}
+    /* Main content adjustments */
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
 
-/* Huvudinnehåll - Main Content */
-main {
-    padding: 20px; /* Padding inside the main content */
-    background: rgba(0, 0, 0, 0.10); /* Transparent black background */
-    margin: 20px auto; /* Center main content with margins */
-    max-width: 800px; /* Limit width to 800px */
-    box-shadow: 0 2px 5px rgba(50, 50, 50, 0.5); /* Add subtle shadow around main content */
-    border-radius: 5px; /* Rounded corners */
-}
-
-main h2 {
-    font-size: 2rem; /* Set font size for section headings */
-    color: #d3d3d3; /* Light grey text for subheadings */
-    border-bottom: 2px solid rgba(244, 244, 244, 0.8); /* Underline with light border */
-    padding-bottom: 10px; /* Padding below the heading */
-}
-
-/* Link styling */
-a {
-    color: orange; /* Set color for links */
-    text-decoration: none; /* Remove underline from links */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
-}
-
-a:hover {
-    color: white; /* Change link color to white on hover */
-    text-decoration: underline; /* Underline the link on hover */
-}
-
-/* Sidfot - Footer */
-footer {
-    background: rgba(51, 51, 51, 0.8); /* Transparent dark background for footer */
-    color: #fff; /* White text color */
-    text-align: center; /* Center the footer content */
-    padding: 10px 20px; /* Padding for top and bottom */
-    position: relative; /* Position relative for absolute positioning of elements inside */
-    bottom: 0; /* Stick footer to the bottom */
-    width: 100%; /* Full width of the page */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center the content */
-}
-
-/* All rights reserved styling (centered) */
-footer .rights-reserved {
-    margin-bottom: 10px; /* Add some space below the text */
-}
-
-/* Home and Privacy buttons */
-footer .home-button {
-    text-align: right; /* Align the button to the right */
-    margin-left: auto; /* Move the button to the right */
-    margin-bottom: 10px; /* Add some space below the texts */
+    /* Footer adjustments */
+    footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
 }
