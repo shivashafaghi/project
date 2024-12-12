@@ -135,7 +135,6 @@ nav ul {
         .contact-form {
             background-color: #fff;
             padding: 20px 30px;
-            width: 90%;
             max-width: 400px;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -157,7 +156,6 @@ nav ul {
         
         .contact-form input,
         .contact-form textarea {
-            width: 100%;
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ddd;
@@ -166,7 +164,6 @@ nav ul {
         }
         
         .contact-form button {
-            width: 100%;
             padding: 10px;
             font-size: 16px;
             border: none;
