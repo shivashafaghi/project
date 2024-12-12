@@ -12,9 +12,12 @@ function closeContactForm() {
 
 // Function to handle form submission
 function submitForm(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
+    event.preventDefault(); // Prevent default submission
     alert("Form submitted successfully!");
-    
-    // Close the form after submission
+    // Clear form fields
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+    // Close the form
     closeContactForm();
 }
