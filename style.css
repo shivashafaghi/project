@@ -193,21 +193,20 @@ nav ul {
         align-items: center; /* Centers the content vertically inside footer */
         justify-content: center; /* Centers the content horizontally inside footer */
         text-align: center; /* Center the footer content */
-        width: 100%; /* Ensures footer takes up full width */
         background: rgba(68, 68, 68, 0.8); /* Same background color as the navigation bar */
         padding: 10px 0; /* Same padding as the navbar */
-        color: white; /* Text color for visibility */
+        color: #d3d3d3; /* Light grey text for general text */
     }
     
     .rights-reserved {
-        margin-bottom: 10px; /* Space between copyright text and cookie banner */
+        margin-bottom: 5px; /* Space between copyright text and cookie banner */
     }
     
     .cookie-banner {
         display: flex;
         flex-direction: column;
         align-items: center; /* Centers the content of the cookie banner */
-        margin-top: 10px;
+        margin-top: 5px;
     }
     
     .cookie-banner p {
@@ -215,18 +214,18 @@ nav ul {
         padding: 0;
     }
     
-    button#accept-cookies {
+    #accept-cookies {
         margin-top: 10px;
         padding: 10px 20px;
-        background-color: #4CAF50; /* Button color */
+        background-color: none; /* Button color */
         color: white;
-        border: none;
+        border: orange;
         border-radius: 5px;
         cursor: pointer;
     }
     
-    button#accept-cookies:hover {
-        background-color: #45a049;
+    #accept-cookies:hover {
+        background-color: white;
     }
     
     /* Ensuring full height of the initial section */
