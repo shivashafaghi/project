@@ -104,35 +104,32 @@
        
         <!-- ---------------------------------------- CONTACT ------------------------------------------- -->
             
-           <!-- Contact Section (CSS: #contact, .contact-btn, .contact-form-container) -->
-            <section id="contact">
-                <h1>Get in touch</h1>
-                <h2>Connect with us for a consultation!</h2>
-                <p>Let's discuss your marketing goals & unlock the full potential of your brand in the digital landscape.</p>
-            
-           <!-- Contact Button (CSS: .contact-btn) -->
-            <button class="contact-btn" onclick="openContactForm()">Contact VUR</button>
-            
-           <!-- Contact Form (Initially Hidden) (CSS: .contact-form-container, .contact-form-container form, .close-btn) -->
-            <div class="contact-form-container" id="contactForm">
-               <form>
-                   <h2>Contact VUR</h2>
-                   <label for="name">Name</label>
-                   <input type="text" id="name" name="name" required>
-           
-                   <label for="email">Email</label>
-                   <input type="email" id="email" name="email" required>
-           
-                   <label for="message">Message</label>
-                   <textarea id="message" name="message" rows="4" required></textarea>
-           
-                   <button type="submit">Submit</button>
-           
-                   <!-- Close Button -->
-                   <button type="button" class="close-btn" onclick="closeContactForm()">Close</button>
-               </form>
-           </div>
-        </section>
+        <!-- Contact Section (CSS: #contact, .contact-btn, .contact-form-container) -->
+             <section id="contact">
+                 <h1>Get in touch</h1>
+                 <h2>Connect with us for a consultation!</h2>
+                 <p>Let's discuss your marketing goals & unlock the full potential of your brand in the digital landscape.</p>
+                 
+                 <!-- Contact Button (CSS: .contact-btn) -->
+                 <button onclick="openContactForm()">Contact VUR</button>
+                 
+                 <!-- Contact Form (Initially Hidden) (CSS: .contact-form-container, .contact-form-container form, .close-btn) -->
+                 <div class="contact-form-container" id="contactForm">
+                     <div class="contact-form">
+                         <span class="close-btn" onclick="closeContactForm()">X</span>
+                         <h2>Contact VUR</h2>
+                         <form onsubmit="submitForm(event)">
+                             <label for="name">Name:</label>
+                             <input type="text" id="name" name="name" required>
+                             <button type="submit">Submit</button>
+                         </form>
+                     </div> <!-- Close contact-form -->
+                     <!-- Close Button (Outside Form) -->
+                     <button type="button" class="close-btn" onclick="closeContactForm()">Close</button>
+                 </div> <!-- Close contact-form-container -->
+             </section>
+
+
             
 <!-- ---------------------------------------- FOOTER ------------------------------------------- -->
     
