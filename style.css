@@ -165,7 +165,7 @@ nav ul {
 
 /* Contact Form Container - Initially Hidden */
     .contact-form-container {
-        display: none;  /* Hidden by default */
+        display: none;  /* Remains hidden until toggled */
         position: fixed;
         top: 0;
         left: 0;
