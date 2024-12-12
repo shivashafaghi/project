@@ -12,12 +12,17 @@ function closeContactForm() {
 
 // Function to handle form submission
 function submitForm(event) {
-    event.preventDefault(); // Prevent default submission
-    alert("Form submitted successfully!");
-    // Clear form fields
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-    // Close the form
+    event.preventDefault(); // Prevent page reload
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Simulate a server request (replace with actual submission logic)
+    console.log('Form submitted:', { name, email, message });
+
+    alert('Thank you for contacting us!');
     closeContactForm();
+
+    // Reset the form
+    document.getElementById('contactFormElement').reset();
 }
