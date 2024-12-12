@@ -202,20 +202,23 @@ a:hover {
         color: #d3d3d3; /* Light grey text for general text */
     }
     
+     /* Styling for the copyright text section */
     .rights-reserved {
         margin-bottom: 5px; /* Space between copyright text and cookie banner */
     }
     
+    /* Styling for the cookie banner container */
     .cookie-banner {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centers the content of the cookie banner */
-        margin-top: 5px;
+        display: flex; /* Using flexbox layout */
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center; /* Centers the content horizontally */
+        margin-top: 5px; /* Adds space above the cookie banner */
     }
     
+    /* Styling for the paragraph inside the cookie banner */
     .cookie-banner p {
-        margin: 0;
-        padding: 0;
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
     }
     
     #accept-cookies {
