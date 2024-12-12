@@ -271,7 +271,7 @@ nav ul {
     
     /* Ensuring full height of the initial section */
     #home {
-        background: url('your-image.jpg') no-repeat center center fixed;
+        background: url('logoblb.jpg') no-repeat center center fixed;
         background-size: cover;
         height: 100vh; /* Full viewport height */
         display: flex;
