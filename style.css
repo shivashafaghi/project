@@ -143,9 +143,11 @@ nav ul {
         padding: 10px;
     }
 
-    /* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
+/* ------------------------------------------- CONTACT FORM ---------------------------------------------*/
 
-    /* Style for the Contact Form */
+/* Style for the Contact Form */
+    
+    /*Button style*/
     .contact-btn {
         background-color: #4CAF50;
         color: white;
@@ -161,6 +163,7 @@ nav ul {
         background-color: #45a049;
     }
 
+/* Contact Form Container - Initially Hidden */
     .contact-form-container {
         display: none;  /* Hidden by default */
         position: fixed;
@@ -175,6 +178,7 @@ nav ul {
         padding: 20px;
     }
 
+/* Form styling */
     .contact-form-container form {
         background-color: white;
         border-radius: 5px;
@@ -184,23 +188,30 @@ nav ul {
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }
 
+/* Form Header */
     .contact-form-container h2 {
         text-align: center;
+        margin-bottom: 20px;
     }
 
+/* Form Labels */
     .contact-form-container label {
         display: block;
         margin: 10px 0 5px;
     }
 
-    .contact-form-container input, .contact-form-container textarea {
+ /* Form Inputs and Textarea */
+    .contact-form-container input, 
+    .contact-form-container textarea {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
         border: 1px solid #ddd;
         border-radius: 5px;
+        box-sizing: border-box;
     }
 
+/* Form Submit Button */
     .contact-form-container button {
         background-color: #4CAF50;
         color: white;
@@ -209,16 +220,24 @@ nav ul {
         cursor: pointer;
         font-size: 16px;
         border-radius: 5px;
+        width: 100%;
     }
 
     .contact-form-container button:hover {
         background-color: #45a049;
     }
 
-    /* Close button style */
+/* Close button style */
     .close-btn {
         background-color: red;
-        margin-top: 10px;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 15px;
+        width: 100%;
     }
 
     .close-btn:hover {
