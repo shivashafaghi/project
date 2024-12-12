@@ -1,6 +1,7 @@
 /* Allmänna stilar - General Styles */
 body {
-    font-family: 'Abel', Arial, sans-serif; /* Use Abel with fallback fonts */
+    font-family: 'AbelRoboto', Arial, sans-serif; /* Use Roboto with fallback fonts */
+    font-weight: 300;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     line-height: 1.6; /* Set line height for readability */
